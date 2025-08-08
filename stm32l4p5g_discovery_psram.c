@@ -361,7 +361,7 @@ uint8_t BSP_PSRAM_EnableMemoryMappedMode(void)
   sCommand.Address            = 0;
   sCommand.NbData             = 10;
 
-  sCommand.Instruction = WRITE_REG_CMD_SRAM;
+  sCommand.Instruction = WRITE_CMD_SRAM;
   sCommand.DummyCycles = DUMMY_CLOCK_CYCLES_SRAM_WRITE;
 
 
